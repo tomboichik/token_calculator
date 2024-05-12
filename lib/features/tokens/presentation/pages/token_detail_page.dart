@@ -85,6 +85,7 @@ class _TokenDetailPageState extends State<TokenDetailPage> {
                       LineChartData(
                         lineBarsData: [
                           LineChartBarData(
+                              barWidth: 3,
                               spots: tokenData.prices
                                   .map(
                                     (e) => FlSpot(
