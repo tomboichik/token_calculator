@@ -5,7 +5,6 @@ import 'package:token_lsit/core/network/auth_interceptor.dart';
 import 'package:token_lsit/core/network/network_constants.dart';
 import 'package:token_lsit/features/tokens/data/data_sources/tokens_remote_data_source_impl.dart';
 import 'package:token_lsit/features/tokens/data/models/token/token.dart';
-import 'package:token_lsit/features/tokens/data/models/token_data/token_data.dart';
 import 'package:token_lsit/features/tokens/domain/repositories/tokens_repository_impl.dart';
 
 void main() {

@@ -30,7 +30,6 @@ class TokenDetailCubit extends Cubit<TokenDetailState> {
         ),
       );
     } catch (e) {
-      print(e);
       emit(const TokenDetailState.error('Could not load data'));
     }
   }
